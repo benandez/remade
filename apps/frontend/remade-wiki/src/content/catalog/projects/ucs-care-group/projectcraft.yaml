@@ -1,0 +1,15 @@
+# Features and status are maintainer-reported in the repository README and ROADMAP.
+slug: projectcraft
+name: ProjectCraft
+authors: [benandez]
+repository: https://github.com/UCS-Care-Group/projectcraft
+originals: [microsoft-project]
+category: productivity
+languages: [Rust]
+platforms: [Windows, macOS, Linux]
+status: experimental
+compatibility: targeting
+description: ProjectCraft reimplements Microsoft Project's desktop scheduling as a native Rust application. It has a task sheet with a Gantt chart, finish-to-start, start-to-start, finish-to-finish and start-to-finish links with lag, milestones, a working calendar, and critical-path scheduling with total slack. Every action is a command that can also be run from a CLI.
+license: MIT OR Apache-2.0
+docs: https://github.com/UCS-Care-Group/projectcraft#readme
+limitations: Pre-alpha with no releases yet; build from source. Summary tasks, constraints, resources, baselines, tracking, MPP/XML/XER import and export, and printing are not yet available.
